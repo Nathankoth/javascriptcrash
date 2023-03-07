@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body h2 {
+  font-size: 5rem;
+}
+body .btn {
+  display: flex;
+}
+body .btn-increment-btn {
+  padding: 10px 20px;
+  background-color: #ff0000;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+body .btn-reduction-btn {
+  padding: 10px 20px;
+  background-color: #0d830f;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+body .btn-reset-btn {
+  padding: 10px 20px;
+  background-color: #0d2183;
+  margin-right: 15px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
